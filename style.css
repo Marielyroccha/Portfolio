@@ -1,0 +1,310 @@
+body{
+    background-color: #afc7de7c;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #2E475E;
+}
+
+p{
+    text-align: left;
+    margin-left: 1.875em;
+    margin-right: 1.875em;
+}
+
+.nav{
+    background-color: #f5a2c7 ;
+    height: 3.124em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icone_nav{
+    height: 3em;
+    width: 3em;
+}
+
+
+.link{
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: larger;
+    margin-right: 4em;
+}
+
+.link:hover{
+    color: #aad1e9;
+}
+
+.img_fundo{
+    width: 100%;
+    height: 30em;
+    opacity: 0.9;
+}
+
+.corpo {
+    margin: 5em;
+    color: #2E475E;
+}
+
+.corpo1{
+    background-color: rgb(180, 213, 234);
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.corpo2{
+    background-color: rgb(180, 213, 234);
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.corpo3{
+    background-color:#f5a2c7be ;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.principal{
+    text-align: center;
+    width: 100%;
+}
+
+.Foto_Mari{
+    width: 20em;
+    height: 25em;
+    border-radius: 5%;
+}
+
+.cards{
+    background-color: #d8e3ee;
+    width: 20em;
+    height: 20em;
+    border-radius: 15%;
+    text-align: center;
+    margin: 1.25em;
+}
+
+.card_img{
+    width: 6.25em;
+    height: 6.25em;
+}
+
+.cards3{
+    background-color: #d8e3ee;
+    width: 30em;
+    height: 25em;
+    border-radius: 15%;
+    text-align: center;
+    margin: 1.25em;
+}
+
+.cards4{
+    background-color: #d8e3ee;
+    width: 60em;
+    height: 25em;
+    border-radius: 5%;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cards5{
+    background-color: #d8e3ee;
+    width: 60em;
+    height: 25em;
+    border-radius: 5%;
+    text-align: center;
+    margin: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+
+.li{
+    margin-top: 0.31em;
+} 
+
+.ul{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1em;
+}
+
+.rede_social{
+    width: 5em;
+    height: 5em;
+}
+
+#btn-voltar-topo {
+    display: none; 
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    z-index: 9999;
+    width: 6em;
+    height: 3em;
+    border-radius: 40%;
+    background-color:  #f73f92be;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+#btn-voltar-topo:hover {
+    background-color: #f5a2c7be;
+    color: black;
+}
+
+.relogio{
+    background-color: #f5a2c7;
+    margin: 0 auto;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio_tx{
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+
+    .nav{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+           
+    .link {
+        display: none;
+    }
+
+    .icone_nav {
+        display: none;
+    }
+
+    .cards{
+        height: 23em;
+        width: 15em;
+    }
+
+    .cards5{
+        display: block;
+    }
+
+    body{
+            overflow-x: hidden;
+          }
+
+    .cards4{
+        font-size: 0.7em;
+    }
+  }
+
+  @media (max-width: 560px) {
+
+    .img_fundo{
+        width: 100%;
+        height: 20em;
+    }
+
+    .corpo1{
+    height: 70em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7em;
+    }
+
+    .cards {
+        height: 20em;
+        width: 20em;
+    }
+    
+    .Foto_Mari{
+        width: 10em;
+        height: 15em;
+        border-radius: 5%;
+    }
+
+    .texto{
+        font-size: 0.7em;
+    }
+
+    .corpo2{
+        height: 30em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.7em;
+    }
+
+    .cards5{
+        height: 28em;
+    }
+
+    .cards4{
+        height: 25em;
+    }
+
+    .rede_social{
+        width: 3em;
+        height: 3em;
+    }
+}

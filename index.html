@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Mariely Rocha</title>
+    <link rel="icon" type="image/x-icon" href="./src/mulheres.png">
+</head>
+<body>
+    <div class="nav">
+        <img class="icone_nav" src="./src/mulheres.png" alt="icone_nav">
+        <a class="link" href="#" onclick="scrollToSection('Perfil')">Perfil</a>
+        <a class="link" href="#" onclick="scrollToSection('sobre')">Sobre</a>
+        <a class="link" href="#" onclick="scrollToSection('conhecimentos')">Conhecimentos</a>
+        <a class="link" href="#" onclick="scrollToSection('contato')">Contato</a>
+    </div>
+    <div>
+        <img class="img_fundo" src="./src/img_fundo.png" alt="img_topo">
+    </div>
+    <div class="corpo">
+        <div class="principal">
+            <h1>Seja Bem Vindo ao Meu Perfil</h1>
+            <h2>Aqui vc vai saber sobre minha história, competencias e contatos.</h2>
+        </div>
+    </div>
+    <section id="Perfil">
+        <div class="corpo1">
+            <div class="cards">
+                <h2>Perfil:</h2>
+                <img class="card_img" src="./src/mulher.png" alt="perfil">
+                <p><strong>Nome: </strong> Mariely Bosco Rocha</p>
+                <p><strong>Idade: </strong> 29 anos</p>
+                <p><strong>Estado Civil: </strong> Casada</p>
+                <p><strong>Cidade: </strong> Araçatuba - SP</p>
+            </div>
+            <div class="cards">
+                <h2>Profissional:</h2>
+                <img class="card_img" src="./src/monitoramento.png" alt="trabalho">
+                <p><strong>Profissão: </strong> Desenvolvedora Web</p>
+                <p><strong>Empresa: </strong> CS Soluções</p>
+                <p><strong>Admissão: </strong> 22/05/2023</p>
+                <p><strong>Atividades: </strong> Oracle APEX e PLSQL</p>
+            </div>
+            <div class="cards">
+                <h2>Formação:</h2>
+                <img class="card_img" src="./src/aprendizagem.png" alt="faculdade">
+                <p><strong>Curso: </strong> Sistemas para Internet</p>
+                <p><strong>Faculdade: </strong> UniCesumar</p>
+                <p><strong>Modadidade: </strong> EAD</p>
+                <p><strong>Formação: </strong> junho/2024</p>
+            </div>                        
+        </div>
+    </section>
+    <section id="sobre">
+        <div class="corpo3">
+            <div class="cards4">
+                <img class="Foto_Mari" src="./src/Foto_Mari.jpeg" alt="Foto_Mari">
+                <div class="texto">
+                    <h2>Sobre</h2>
+                    <p>Iniciei minha vida profissional com 18 anos em um hospital a área da farmácia,
+                        no qual permaneci por 11 anos, passado esse tempo, percebi que não gostaria de 
+                        permanecer ali pelo resto da minha vida. Então foi assim decidi começar minha
+                        aventura na programação com cursos e muitos estudos
+                        e logo iniciei a faculdade de tecnologia. Com ajuda do meu esposo, que também
+                        é programador e muita força de vontade consegui em estágio,
+                        no qual estou atualmente na area de desenvolvimento Web.
+                        E assim estou seguindo em busca das minhas realizações pessoais e profissionais.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <section id="conhecimentos">
+            <div class="corpo2">
+                <div class="cards5">
+                    <div>
+                        <h2>Principais Conhecimentos:</h2>
+                        <img class="card_img" src="./src/web.png" alt="web">
+                    </div>
+                    <div class="lista">
+                        <ul class="ul"><strong>Linguagens:</strong> 
+                            <li class="li">HTML</li>
+                            <li class="li">CSS</li>
+                            <li class="li">JavaScript</li>
+                            <li class="li">MySql</li>
+                            <li class="li">Oracle PLSQL</li>
+                        </ul>
+                        <ul class="ul"><strong>Frameworks:</strong>
+                            <li class="li">Bootstrap</li>
+                            <li class="li">Oracle APEX</li>
+                            <li class="li">Vue.js</li>
+                        </ul>
+                        <ul class="ul"><strong>Extras:</strong>
+                            <li class="li">Git GitHub</li>
+                            <li class="li">ClickUp</li>
+                            <li class="li">Figma</li>
+                        </ul>
+                    </div>
+                </div>                      
+            </div>
+        </section>
+        <button class="btn-topo" id="btn-voltar-topo">Voltar ao Topo</button>
+    <section id="contato">
+        <footer>
+            <div class="redes">
+                <a href="https://instagram.com/marielydessanti?igshid=OGQ5ZDc2ODk2ZA==">
+                    <img class="rede_social" src="./src/midia-social.png" alt="insta">
+                </a>
+                <a href="https://www.facebook.com/mariely.felipe.58?mibextid=LQQJ4d">
+                    <img class="rede_social" src="./src/facebook.png" alt="face">
+                </a>
+                <a href="https://www.linkedin.com/in/mariely-rocha/">
+                    <img class="rede_social" src="./src/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://contate.me/marielydev">
+                    <img class="rede_social" src="./src/whatsapp.png" alt="whats">
+                </a>
+            </div>
+            <div class="relogio">
+                <p class="relogio_tx" id="relogio-data"></p>
+            </div>
+        </footer>
+    </section>
+    <script src="./index.js"></script>
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
